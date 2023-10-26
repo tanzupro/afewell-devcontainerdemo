@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: tdemo-gateway-cert
+  namespace: default
+spec:
+  dnsNames:
+  - tdemo.afewell-devcontainerdemo.tanzu.pro
+  secretName: taptlscert
+  issuerRef:
+    name: letsencrypt-production
+    kind: ClusterIssuer

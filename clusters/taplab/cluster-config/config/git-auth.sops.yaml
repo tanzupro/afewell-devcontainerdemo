@@ -1,0 +1,29 @@
+apiVersion: ENC[AES256_GCM,data:BnQ=,iv:JzAZT+uglEL+8/thyC8AIg8GtrTgoFxmVKG1vE3Npcc=,tag:FqTrwi5P3yStCNE6lx1MEw==,type:str]
+kind: ENC[AES256_GCM,data:ROfVx7jU,iv:K14hHXn6GzTvo37kcl/mLijCcP+ymKtxZYwa6JMdmIw=,tag:thAlnucz8GvrHqhKJYPO0A==,type:str]
+metadata:
+    name: ENC[AES256_GCM,data:LUE3Lsx7gQA=,iv:lGXnj0eF6W8O/lrcHDEeRVJZQ+7oajQDeArCz0F5vIg=,tag:b3WtstqfX9M2zRsNnERzgw==,type:str]
+    namespace: ENC[AES256_GCM,data:9Xfx2kfLSWBS2MA=,iv:htW7KZFrW+NaAjEZGdqiECq0Y/SllJU7o7HNcjCd+4Y=,tag:LesSkEw/rl9VYNV6fkRljA==,type:str]
+type: ENC[AES256_GCM,data:NHuFrD7pZh1rxWrldekhTIhJfAzXNWFo,iv:pSh26izNLXJrInjDTr634cl/XfPdJxMZRurAaMWvn44=,tag:0r8dESTHT43TUStq/ZdUNQ==,type:str]
+stringData:
+    username: ENC[AES256_GCM,data:5wrhWoHzPQ==,iv:U6+d08P8Xwr2/M53Q9hNlKh0U/dSFKQsyf1foZ6q6fM=,tag:d0ICIPkgzvqRo9kzQROh5A==,type:str]
+    password: ENC[AES256_GCM,data:zPSbPM0S+TwIrTuoA8OOLGUd+wZaQNL84C22EhtoeucyMQv4bvSc2g==,iv:ZlfaAauL2Kicr8KqDbV5Pgpu1XyMyvaDHQJb92N/ykE=,tag:x4HRPqpK8ZJc6UtqPfmJ7Q==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1r99t63cfaaa66c27t2ze5kcax4kd8625rfyyhzjuuchrhhz7nsms96jgjp
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAwaGhRRG5FWDVJVzZ3QTEx
+            RjY5bUFZajJOd1NSYk1acHUyQ3FNUHVxUVc0CldhYzdzTnR2d1VJd0hGMjRXQTRQ
+            UFlKcElJc28vWXZyeTNzZlJCa2lBMmcKLS0tIDBYaEM5NFd6UXhzazcrOFBTbkUy
+            QXNFczdpNEpid1hRanRON05wYVRYWUUK3+illcMeG6OMI1RkoyTEzFlao94Cw3ch
+            uRWWn44MUSQSOrRe5p56G1M9uzJsDUyGQTOd3HoTHbNL++1lQao1KQ==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2023-10-26T16:39:57Z"
+    mac: ENC[AES256_GCM,data:k2BcCzOyzvMqoepTFnJUGbXkYafl9HmVMEz5LMB+ItiGh+Ys5XR9lS4O0yOG54Z0rcqwQfaclMRdBGAXzaBMEQU1IgOaaA1OvSvpGfRJHC5K25/iYoPmFtpfOWi/+GCyM84yWPqoOQBUbQUy7wC+UScQ+peLCv56TJO3cYVkK7M=,iv:5WB34+V3SlacOZNY+1fo9cl8Q9bs+H1ORLVjK9pmb1U=,tag:xg21lmb0zpoFiWEiboN8ZQ==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.8.1
